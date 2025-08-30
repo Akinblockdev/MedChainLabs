@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.healthcare-provider-registry]
+path = 'contracts/healthcare-provider-registry.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.immunity-passport-registry]
 path = 'contracts/immunity-passport-registry.clar'
 clarity_version = 2
